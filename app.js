@@ -10,12 +10,8 @@ app.get("/regular", function (req, res) {
     res.render("regular.ejs");
 })
 
-app.get("/naruto", function (req, res) {
-    res.send("hi from naruto.ejs");
-})
-
-app.get("/spongebob", function (req, res) {
-    res.send("hi from spongebob.ejs");
+app.get("/overwatch", function (req, res) {
+    res.render("overwatch.ejs");
 })
 
 //serve public files

@@ -1,11 +1,56 @@
-body, html{
+html,body{
     width: 100%;
     height: 100%;
 }
 
-body{
-    margin-bottom: 15%;
+
+
+
+h1{
+    color: white;
+    font-size: 50px;
 }
+
+.bg-home{
+  /* The image used */
+  background-image: url("http://xdesigns.net/wp-content/uploads/2016/12/zentree_1.png");
+
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-overwatch {
+  /* The image used */
+  background-image: url("https://www.rpnation.com/data/xfmg/thumbnail/29/29878-cf19419bba563c196bc5f3214b66d564.jpg?1516415211");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-regular {
+  /* The image used */
+  background-image: url("https://i2.wp.com/i.imgur.com/6IxlorP.jpg");
+  
+
+  height:100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
 
 h2{
     text-align: center;
@@ -19,26 +64,26 @@ h2{
 
 .btn{
     /* top right down left*/
-    padding: 50px 200px; 
+    padding: 25px 100px; 
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     margin-right: 10px;
     margin-left: 10px;
 }
 
 #myImage{
     display: block;
-    margin: 25px auto;
-    width: 550px;
-    height: 550px;
+    margin: 12px auto;
+    width: 300px;
+    height: 300px;
    
 }
-
 
 
 /*In your CSS*/
  .hidden {
     display: none;
+    background-image: url("https://www.rpnation.com/data/xfmg/thumbnail/29/29878-cf19419bba563c196bc5f3214b66d564.jpg?1516415211")
 }
 .show {
    display: block;
@@ -46,8 +91,8 @@ h2{
    text-align: center;
    font-size: 50px;   
    font-weight: 900;
-   color: black;
-   margin-bottom: 15%;
+   color: darkblue;
+   
  
 
 }
